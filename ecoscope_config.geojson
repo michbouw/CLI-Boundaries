@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "baseLayers": [
+      {
+        "name": "OpenStreetMap",
+        "type": "tile",
+        "url": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+        "subdomains": [
+          "a",
+          "b",
+          "c"
+        ],
+        "attribution": "\u00a9 OpenStreetMap contributors"
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Camdeboo Boundary",
+        "type": "geojson",
+        "url": "https://raw.githubusercontent.com/michbouw/CLI-Boundaries/main/camdeboo_boundary_polygon.geojson",
+        "style": {
+          "color": "#FF0000",
+          "weight": 2,
+          "fillColor": "#FF0000",
+          "fillOpacity": 0.2
+        }
+      },
+      "geometry": null
+    }
+  ]
+}
